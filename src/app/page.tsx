@@ -1,7 +1,11 @@
-import styles from './page.module.css';
+import { Top } from '@/components/top';
 
 const Home = () => {
-  return <main className={styles.main}></main>;
+  return (
+    <main>
+      <Top />
+    </main>
+  );
 };
 
 export default Home;

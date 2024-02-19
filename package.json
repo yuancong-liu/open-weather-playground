@@ -18,7 +18,20 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.0.3",
+    "pretty-quick": "^4.0.0",
+    "sass": "^1.54.6",
+    "stylelint": "^16.2.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-sass-guidelines": "^11.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0"
   }
 }

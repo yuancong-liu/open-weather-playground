@@ -1,0 +1,7 @@
+# .gitignore に記載されていないが Lintチェックから除外したいファイルパターン
+# .gitignore に記載されているがなぜかチェックされるので明示
+.next
+next-i18next.config.js
+next.config.js
+fontsLoader.js
+.yarn/*

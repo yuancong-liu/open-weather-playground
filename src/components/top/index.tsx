@@ -13,9 +13,8 @@ type Coord = {
 };
 
 export const Top = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [coord, setCoord] = useState<Coord>({ lon: 10, lat: 10 });
-
-  setCoord({ lon: 10, lat: 10 });
 
   const fetcher = (url: string, lon: number, lat: number, apiKey: string) =>
     axiosInstance
